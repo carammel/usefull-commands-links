@@ -1,0 +1,6 @@
+clone all repo with all branches:
+    -git clone --bare <source-code-clone-link> 
+    after cloning go to sub folder and execute: 
+    -git push --mirror <target-code-clone-link> 
+change upstream:    
+    -git push --set-upstream origin <branchThatIwant>
