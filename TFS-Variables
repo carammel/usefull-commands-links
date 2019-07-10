@@ -1,0 +1,12 @@
+ProjectName=$(system.teamProject).(Build.Repository.Name)
+ProjectVersion= 1.0.$(build.buildid)
+/p:OutDir=$(build.artifactstagingdirectory)
+/p:outdir=$(Build.BinariesDirectory)
+/p:RunCodeAnalysis=false
+\\$(AGENT.MACHINENAME)
+_PublishedWebSites\(Build.Repository.Name)
+$(Build.SourcesDirectory)
+-DskipTests //maven
+
+
+Predefined Variables  https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml
