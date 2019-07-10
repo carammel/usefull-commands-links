@@ -6,3 +6,6 @@ change upstream:
     -git push --set-upstream origin <branchThatIwant>
 https git repository "SSL certificate problem: self signed certificate in certificate chain":
     -git config --global http.sslVerify false
+change/edit git remote repository address:
+    -git remote -v //find all your remote addresses
+    -git remote set-url origin https://USERNAME:password@gitserveraddress
