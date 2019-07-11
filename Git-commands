@@ -9,3 +9,6 @@ https git repository "SSL certificate problem: self signed certificate in certif
 change/edit git remote repository address:
     -git remote -v //find all your remote addresses
     -git remote set-url origin https://USERNAME:password@gitserveraddress
+git edit post buffers:
+    -git config --global http.postBuffer 2097152000
+    -git config --global https.postBuffer 2097152000
