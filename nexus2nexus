@@ -1,0 +1,4 @@
+-control proxy connection
+-control telnet configuration
+-control usernames and passwords
+-control settings.xml
