@@ -1,2 +1,13 @@
 How to change ubuntu sudo password on windows, if you forgot the passwd
   -https://www.top-password.com/blog/reset-lost-root-password-in-windows-subsystem-for-linux/
+How to create sudo password
+  -sudo -i passwd
+How to create user
+  -adduser username
+  -usermod -aG sudo username
+  -su - username  //test
+  -sudo whoami  //test
+How to delete user
+  -sudo deluser username
+  -sudo deluser --remove-home username
+  
