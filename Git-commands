@@ -12,3 +12,6 @@ change/edit git remote repository address:
 git edit post buffers:
     -git config --global http.postBuffer 2097152000
     -git config --global https.postBuffer 2097152000
+sort commits by date:
+    git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \   --before="2008-11-01" --no-merges -- t/
+    git log --pretty=format:"%ce" --since="2017-09-01" --before="2017-10-31">D:\rally\commits.txt
