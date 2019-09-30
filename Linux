@@ -10,4 +10,5 @@ How to create user
 How to delete user
   -sudo deluser username
   -sudo deluser --remove-home username
-  
+How to install plugins for grafana on redhat
+  -grafana-cli --pluginUrl /<localdirectory>/<plugin-id>-<plugin-version>.zip plugins install <plugin-id>
