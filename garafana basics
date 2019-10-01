@@ -1,0 +1,9 @@
+which influx --> show where is influx db
+influx // open influx cli
+  -show databases 
+  -CREATE DATABASE <databaseName>
+  -use <database>
+  --INSERT temp,Name=data1 value=1.5
+  --SHOW * FROM temp
+  -influx -import -path=NOAA_data.txt -precision=s -database=NOAA_water_database
+  --SELECT * FROM h2o_temperature LIMIT 5
