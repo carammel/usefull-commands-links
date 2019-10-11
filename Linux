@@ -12,3 +12,6 @@ How to delete user
   -sudo deluser --remove-home username
 How to install plugins for grafana on redhat
   -grafana-cli --pluginUrl /<localdirectory>/<plugin-id>-<plugin-version>.zip plugins install <plugin-id>
+cURL: Komut satırından http request yapmamızı sağlar.
+  -apt install curl
+  -https://medium.com/@gokhansengun/komut-sat%C4%B1r%C4%B1-http-ara%C3%A7lar%C4%B1-curl-c958a64388c3
