@@ -17,3 +17,4 @@ sort commits by date:
     git log --pretty=format:"%ce" --since="2017-09-01" --before="2017-10-31">D:\rally\commits.txt
 error: failed to push some refs to [remote repo]:
     -git pull --allow-unrelated-histories
+git config --list --show-origin
