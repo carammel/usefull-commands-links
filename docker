@@ -1,2 +1,2 @@
----pull container with network name and round robin and DNS name
+---pull container with network name and round robin load balancing and DNS name
   docker container run -d --net **(network name) --network-alias **(DNS name) **(imageName)
