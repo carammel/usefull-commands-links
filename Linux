@@ -17,4 +17,5 @@ cURL: Komut satırından http request yapmamızı sağlar.
   -https://medium.com/@gokhansengun/komut-sat%C4%B1r%C4%B1-http-ara%C3%A7lar%C4%B1-curl-c958a64388c3
  How to add shh key for a specific user
   -https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html
+  -https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/
   -ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
