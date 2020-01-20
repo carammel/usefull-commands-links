@@ -5,6 +5,7 @@ How to create sudo password
 How to create user
   -adduser username
   -usermod -aG sudo username
+  -sudo usermod -aG docker username
   -su - username  //test
   -sudo whoami  //test
 How to delete user
