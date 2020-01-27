@@ -20,3 +20,5 @@ cURL: Komut satırından http request yapmamızı sağlar.
   -https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html
   -https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/
   -ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
+ How to copy in secure on ssh
+  -scp -r ~/.ssh/id_rsa <source> user@ip <destination> (-r: recursive)
