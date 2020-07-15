@@ -1,0 +1,3 @@
+eğer setup.py yoksa nasıl wheel veya sdist veya tar.gz formata dönüştürüyorlar?
+uygulamaların tipi ne? 
+Sunucuların, distribute edilecek S
