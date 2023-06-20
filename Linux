@@ -26,3 +26,5 @@ How to get file names on a directory and assign them to array
   arr=( * )
   echo ${#arr[@]} # will echo number of elements in array
   echo "${arr[@]}" # will dump all elements of the array
+How to delete lines in VIM
+  :[begin],[end]d
